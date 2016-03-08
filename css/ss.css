@@ -1,0 +1,164 @@
+.navbar-default .navbar-brand {
+    color: tomato;
+    font-family: "Pacifico";
+}
+body{
+color: #D2C6C6;
+/*font-family: "pacifico"*/
+}
+.bg-1{
+background-image: url("lathe.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+padding: 250px;
+}
+.bg-12{
+background-image: url("12.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+padding: 250px;
+}
+
+.bg-2{
+background-image: url("6.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+padding: 200px;
+}
+.bg-5{
+background-image: url("8.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+padding: 200px;
+}
+.bg-6{
+background-image: url("7.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+padding: 200px;
+}
+.bg-7{
+background-image: url("5.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+padding: 200px;
+}
+
+.bg-11{
+background-image: url("11.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+padding: 200px;
+}
+
+h3{
+color: white;
+font-size: 30px
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color:#white;
+}
+h2{
+  text-align: center;
+background-color: #black;
+  text-transform: uppercase;
+font-family: "pacifico"
+
+}
+h2{
+font-size: 20px
+}
+
+h6{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px
+  font-family: "pacifico"
+}
+p {
+    text-indent: 7px;
+    text-align: center;
+    letter-spacing: 3px;
+background-color: #white;
+}
+a {
+    text-decoration:none;
+    color: #008CBA;
+}
+
+@keyframes ranjith {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    color: white;
+  }
+
+  25% {
+    -webkit-transform: scale3d(2, 2, 2);
+    transform: scale3d(2, 2, 2);
+    color: tomato;
+  }
+
+  50% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    color: seagreen;
+  }
+
+  75% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    color: tomato;
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    color: white;
+  }
+}
+
+.pulse {
+  -webkit-animation-name: ranjith;
+  animation-name: ranjith;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3ss
+}
+
+.box {
+  margin-top: 40px;
+  padding: 40px;
+  text-align: center;
+  background-color: white;
+}
+
+footer>.container-fluid {
+  position: relative;
+}
+footer>.container-fluid {
+  overflow: hidden;
+}
+footer>.container-fluid>p:last-child {
+  position: absolute;
+  display: inline-block;
+  right: 0;
+  top: 0;
+}
+.lead {
+padding: 40px;
+color: tomato;
+font-family: 'Roboto';
+background: rgba(255,255,255,0.4);
+}
